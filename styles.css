@@ -1,0 +1,163 @@
+body {
+	background-color: gray;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	min-height: 300px;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+	font-size: 20px;
+	text-align: center;
+	
+
+}
+
+.wrapper img {
+	  border: 1px solid #ddd;
+	border-radius: 4px;
+  padding: 10px;
+  width: 250px;
+}
+
+
+	
+
+  
+.welcome-section {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+
+
+.welcome-section  img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--main-red);
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+	text-align: center;
+
+	
+}
+#about {
+  background-color: rgb(92, 184, 92);
+  text-align: center;
+  color: white;
+  margin: 0px 0 20px 0;
+  padding: 50px;
+}
+#portfolio {
+  background-color: teal;
+  text-align: center;
+  color: white;
+  margin: 0px 0 20px 0;
+  padding: 20px;
+  font-size: 20px;
+}
+#contact {
+  background-color: red;
+  text-align: center;
+  color: white;
+  margin: 0px 0 0px 0;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  width: 80%;
+  text-align: center;
+}
+}
+.myNavbar {
+  background-color: green;
+  font-weight: bold;
+  color: white !important;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.nav {
+  background-color: navy;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+
+  color: white !important;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  padding-bottom: 70px;
+}
+
+.img-responsive {
+  max-width: 90%;
+  height: auto;
+}
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
